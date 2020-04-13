@@ -10,7 +10,7 @@ def write_to_file(data):
     f.write(f'{datetime.datetime.now()} SAVED {link} {addr}\n')
 
 # Replace with your Imgur CLIENT_ID
-CLIENT =  'e13436db00a0073' #'CLIENT_ID'
+CLIENT = 'CLIENT_ID'
 
 # Replace with Twilio account details
 ACCOUNT_ID = 'ACCOUNT_ID'
